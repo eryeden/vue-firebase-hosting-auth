@@ -20,3 +20,10 @@ Run the development server
 cd vue-fastapi
 npm run dev
 ```
+
+Deploy to the firebase-hosting
+
+1. Write configurations in the vite project directory. Refer to [here](https://ja.vitejs.dev/guide/static-deploy.html#google-firebase)
+
+For the `.firebaserc`, `<YOUR_FIREBASE_ID>` should be the project name of Firebase like `vue-fastapi-firebase`.
+![fig](fig.png)
